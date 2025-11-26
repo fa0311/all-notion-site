@@ -6,7 +6,7 @@ const baseUrl = new URL("https://sitemaps.notion.site");
 
 const SitemapUrlEntrySchema = z.object({
 	loc: z.url(),
-	lastmod: z.string().transform((str) => new Date(str)),
+	lastmod: z.string().regex(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/),
 });
 
 const parseSitemap = (xml: string): z.infer<typeof SitemapUrlEntrySchema>[] => {
