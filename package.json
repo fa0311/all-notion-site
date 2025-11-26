@@ -2,9 +2,19 @@
   "name": "all-notion-site",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
-  "license": "ISC",
-  "author": "",
+  "description": "Fetch and parse Notion site sitemaps into JSON format",
+  "license": "MIT",
+  "author": "fa0311",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fa0311/all-notion-site.git"
+  },
+  "keywords": [
+    "notion",
+    "sitemap",
+    "parser",
+    "scraper"
+  ],
   "scripts": {
     "dev": "tsx watch src/main.ts",
     "build": "tsc",
