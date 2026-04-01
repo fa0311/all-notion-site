@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@xmldom/xmldom':
-        specifier: ^0.8.11
-        version: 0.8.11
+        specifier: ^0.8.12
+        version: 0.8.12
       zod:
         specifier: ^4.1.13
         version: 4.1.13
@@ -242,8 +242,8 @@ packages:
   '@types/node@20.19.25':
     resolution: {integrity: sha512-ZsJzA5thDQMSQO788d7IocwwQbI8B5OPzmqNvpf3NY/+MHDAS759Wo0gd2WQeXYt5AAAQjzcrTVC6SKCuYgoCQ==}
 
-  '@xmldom/xmldom@0.8.11':
-    resolution: {integrity: sha512-cQzWCtO6C8TQiYl1ruKNn2U6Ao4o4WBBcbL61yJl84x+j5sOWWFU9X7DpND8XZG3daDppSsigMdfAIl2upQBRw==}
+  '@xmldom/xmldom@0.8.12':
+    resolution: {integrity: sha512-9k/gHF6n/pAi/9tqr3m3aqkuiNosYTurLLUtc7xQ9sxB/wm7WPygCv8GYa6mS0fLJEHhqMC1ATYhz++U/lRHqg==}
     engines: {node: '>=10.0.0'}
 
   esbuild@0.25.12:
@@ -397,7 +397,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@xmldom/xmldom@0.8.11': {}
+  '@xmldom/xmldom@0.8.12': {}
 
   esbuild@0.25.12:
     optionalDependencies:
