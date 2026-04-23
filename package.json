@@ -27,7 +27,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@xmldom/xmldom": "^0.8.11",
+    "@xmldom/xmldom": "^0.8.13",
     "zod": "^4.1.13"
   }
 }
